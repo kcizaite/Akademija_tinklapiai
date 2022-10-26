@@ -1,0 +1,40 @@
+.navbar {
+    background-color: rgb(39, 185, 39);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.header-image {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    /* height: 70vh; */
+    background-color: darkgreen;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('images/header-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-h1 {
+    color: rgb(39, 185, 39);
+
+}
+
+.header-p {
+    color: white;
+}
+
+.header-button {
+    background-color: rgb(39, 185, 39);
+}
+
+.form-button {
+    background-color: rgb(39, 185, 39);
+    color: white;
+}
+
+.article-copy {
+    padding-top: 50px;
+    color: grey;
+}

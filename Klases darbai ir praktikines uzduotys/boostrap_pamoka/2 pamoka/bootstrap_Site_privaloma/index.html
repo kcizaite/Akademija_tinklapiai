@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Tutorial Sample Page</title>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-warning">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header
+    class="container-fluid bg-primary header-image d-flex flex-column justify-content-center align-items-center px-5">
+    <h1 class="w-50 text-center header-h1">Welcome to the Landing Page!</h1>
+    <p class="w-50 text-center header-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam
+      odio, quis placerat ante luctus
+      eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. Suspendisse consectetur mi id libero
+      fringilla, in pharetra sem
+      ullamcorper.</p>
+    <button type="button" class="btn btn-success btn-lg header-button">Tell Me More!</button>
+  </header>
+
+  <!-- Main -->
+  <main class="container-lg p-5 ">
+    <div class="row">
+      <article class="col-md-6 col-xl">
+        <h3> Lorem ipsum</h3>
+        <img src="images/column-1.jpg" alt="paveikslelis" class="img-fluid w-100">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante
+          luctus
+          eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+      </article>
+      <article class="col-md-6 col-xl">
+        <h3>Lorem ipsum</h3>
+        <img src="images/column-2.jpg" alt="paveikslelis2" class="img-fluid w-100">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante
+          luctus
+          eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+      </article>
+      <article class="col-md col-xl">
+        <h3>Get in Touch!</h3>
+        <form>
+          <div>
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+          </div>
+          <div>
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
+          <div class="col-auto d-grid">
+            <button class="btn mb-3 form-button">Sent</button>
+          </div>
+        </form>
+      </article>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white">
+    <div class="container-lg p-5">
+      <div class="row">
+        <article class="col-md-8">
+          <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante
+            luctus
+            eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante
+            luctus
+            eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+
+        </article>
+        <article class="col-md-4">
+          <div>
+            <h6 class="text-uppercase font-weight-bold">Contact</h6>
+            <p>1640 Riverside Drive, Hill Valley, California
+              <br />info@mywebsite.com
+              <br />+ 01 234 567 88
+              <br />+ 01 234 567 89
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="footer-copyright text-center article-copy">© 2019 Copyright: MyWebsite.com</div>
+        </article>
+        
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

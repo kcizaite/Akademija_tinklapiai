@@ -1,0 +1,27 @@
+.container {
+    background-color:aqua;
+}
+
+nav {
+
+    background-color: rgb(66, 209, 47);
+    padding: 20px;
+    
+}
+
+.nav-links {
+    margin: 0;
+    list-style-type: none;
+    border-right: 1px solid black;
+    
+}
+
+a.nav-links {
+    display: inline-block;
+
+}
+
+
+footer {
+    background-color: blueviolet;
+}

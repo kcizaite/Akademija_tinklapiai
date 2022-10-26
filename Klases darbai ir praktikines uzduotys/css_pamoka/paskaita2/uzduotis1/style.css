@@ -1,0 +1,61 @@
+.logo {
+    border-radius: 50%;
+    width: 50px;
+}
+
+nav {
+    background-color: gray;
+    padding: 5px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 100px auto;
+    /* centravimas horizontalus */
+    align-items: center;
+}
+
+.nav-links {
+    margin: 0;
+    list-style-type: none;
+}
+
+/* be grid, kai labai paprasti tinkleliai galima */
+ul.nav-links li {
+    display: inline-block;
+    padding: 0.3rem;
+    border-right: 1px solid black;
+
+}
+
+/* uzvedus pelyte, kad pasikeistu */
+ul.nav-links li:hover {
+    background-color: whitesmoke;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.green-border {
+
+    border: 10px dotted rgb(17, 139, 17);
+    width: 50vw;
+    height: 50vh;
+    /* zalias remelis atsidurs centre */
+    margin: 100px auto;
+    /* grid-template-columns: 1fr;
+    align-items: center; */
+}
+
+.cat {
+    position: absolute;
+    top: 80px;
+    left: 30%;
+    width: 200px;
+}
+
+.image-scale-dog {
+    position: absolute;
+    bottom: 120px;
+    left: 55%;
+    width: 200px;
+}

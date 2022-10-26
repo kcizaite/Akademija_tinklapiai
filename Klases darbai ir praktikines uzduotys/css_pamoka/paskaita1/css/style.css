@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    /* sukuriame grid-tinkleli */
+    display: grid;
+    /* mums reikia stulpeliu ir eiluciu */
+    /* plius reikia gapu */
+    gap: 20px;
+    /* pirmas stulpelis 200px, antras 100 px ir t.t.*/
+    /* px keiciam i proc, kad matyti skirtungus variantas */
+    /* su % dizainas guminis, prisitaikantis */
+    /* vieno reikia auto, nes gap jis ne prie border-box, todel 100% nesidalina */
+    /* grid-template-columns: 30% 20% auto 40%; */
+    /* galime ir frakcijomis */
+    /* visos uzims po 1fr, o vienas bus 2x didesnis */
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    background-color: aqua;
+    padding: 20px;
+    /* auto su lango didinimu (tampant ekrana) keiciasi automatiskai, 
+    fiksuoti jau taip nesikeis */
+    
+    /* chrome -> grid -> layout = matysime skaiciu gridu */
+    
+    /* grid parent/child skaidre*/
+    grid-template-areas: 
+    "header header header header"
+    "main main main aside"
+    "main main main aside"
+    "footer footer footer footer";
+    height: 100vh;
+    
+}
+
+.box-a {
+    grid-area: header;
+}
+
+.box-b {
+    grid-area: main;
+}
+.box-c {
+    grid-area: aside;
+}
+
+.box-d {
+    grid-area: footer;
+}
+
+/* visoms p, kurie yra vaikai konteinerio */
+.container p{
+    background-color: rgb(53, 158, 27);
+    padding: 20px;
+}
+
+/* p.container -> visoms p, kurios turi klase container */
+/* 100 vh = 100 proc */
+
+    /* KAIP ISCENTRUOTI VISKA */
+    /* justify-items */
+
+.containeris {
+    display: grid;
+    gap: 20px;
+    /* justify-items: center;*/
+    /* vertikalus lygiavimas su align-items*/
+    /*justify-content- visas gridas slenkasi, o ne langeliai jame*/
+    justify-items: end;
+    background-color: rgb(255, 0, 200);
+
+}
+
+.containeris p{
+    background-color: rgb(53, 158, 27);
+    padding: 20px;
+}
+
+.container-trecias {
+    
+    background-color: antiquewhite;
+    width: 50%;
+    justify-items: center;
+    align-items: center;
+
+}
