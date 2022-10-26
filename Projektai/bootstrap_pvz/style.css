@@ -1,0 +1,16 @@
+.navbar {
+    background-color: rgb(130, 197, 63);
+}
+.navbar-brand{
+    color:#fff;
+}
+.header-image{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    /* height: 70vh; */
+    background-color: darkgreen;
+       background-image: url('images/header-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

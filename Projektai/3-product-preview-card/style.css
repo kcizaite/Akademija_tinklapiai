@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.box {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(241, 231, 231);
+    margin: 0px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+
+}
+
+.box__inside {
+    background-color: white;
+    /* padding: 20px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* width: 70vh;
+    height: 60vh; */
+    border: 0px;
+    border-radius: 10px;
+    width: 50vw;
+    height: 80vh;
+    /* gap: 20px; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    
+}
+
+.box__inside-picture {
+    background-image: url('/3-product-preview-card/images/image-product-desktop.jpg');
+    background-size: cover;
+    border: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.box__inside-text {
+    padding: 35px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 34px;
+    font-size: 20px;
+    /* font-weight: 500; */
+    color: gray;
+}
+
+
+
+#header-text {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Fraunces'; 
+    line-height: 48px;
+    color: black;
+
+}
+
+.add__to__cart {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border: 0px;
+    background-color:rgb(13, 44, 13);
+
+}
+
+/* #perfume {
+    font-family: 'Courier New', Courier, monospace;
+} */

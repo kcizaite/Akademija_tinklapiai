@@ -1,0 +1,7 @@
+.header-image {
+    background-image: url('images/network.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+}
