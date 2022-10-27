@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>☁️Cloud</title>
+  <!-- Nuoroda i javascript -->
+  <script src="script.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Nuoroda i css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar dalis - menu -->
+  <nav class="navbar navbar-expand bg-light">
+    <section class="container-fluid p-5">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.svg" alt="logo" width="200" height="200">
+      </a>
+      <section class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <section class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Features</a>
+          <a class="nav-link active" aria-current="page" href="#">Team</a>
+          <a class="nav-link active" aria-current="page" href="#">Sign In</a>
+        </section>
+      </section>
+    </section>
+  </nav>
+
+  <main>
+    <section class="containeris">
+      <!-- Pirma teksto dalis -->
+      <section class="container-fluid d-flex" style="padding-bottom: 10rem;">
+        <section class="row p-5">
+          <section class="col-md-6 col-xl">
+            <article class="article">
+              <h1 class="article-title fw-bold">
+                All your files in one secure location, accessible anywhere.
+              </h1>
+              <p>
+                Cloud stores your most important files in one secure location.
+                Access them wherever you need, share and collaborate with friends,
+                family, and co-workers.
+              </p>
+              <form class="row">
+                <section class="col-md-6 col-xl">
+                  <input type="email" class="form-control" id="emailForm" placeholder="Enter your email">
+                </section>
+                <section class="col-md-6 col-xl">
+                  <button type="submit" class="btn btn-primary mb-3">Get Started</button>
+                </section>
+              </form>
+              </article>  
+          </section>
+          <!-- Paveikselis -->
+          <section class="col-md-6 col-xl">
+            <img src="images/illustration-1.svg" class="card-img-one" alt="illustration-1"
+              style="max-width:100%; max-height:100%;">
+          </section>
+        </section>
+      </section>
+      <!-- Antra teksto dalis -->
+      <section class="container-fluid d-flex">
+        <section class="row p-5">
+          <section class="col-md-6 col-xl">
+            <article class="article">
+              <h1 class="article-title fw-bold">
+                Stay productive, wherever you are
+              </h1>
+              <p>
+                Never let location be an issue when accessing your files. It has you
+                covered for all of your file storage needs.
+              </p>
+              <p>
+                Securely share files and folders with friends, family and colleagues for
+                live collaboration. No email attachments required!
+              </p>
+              <a href="#" class="card-link color" style="color: hsl(170, 45%, 43%);">See how works <img
+                  src="/images/icon-arrow.svg" alt="arrow"></a>
+            </article>
+            <section class="card">
+              <section class="card-body">
+                <img src="images/icon-quotes.svg" alt="quotes" width="40" height="40">
+                <!-- JS DALIS, cia tureciau gauti informacija, nespejau -->
+                <section>
+                  <button type="button" id="get-quote">Get Mesage</button>
+                </section>
+                <section id="quote-place">
+                </section>
+              </section>
+            </section>
+          </section>
+          <!-- Paveikselis -->
+          <section class="col-md-6 col-xl">
+            <img src="images/illustration-2.svg" class="card-img-one" alt="illustration-1"
+              style="max-width:100%; max-height:100%;">
+          </section>
+        </section>
+      </section>
+    </section>
+    <!-- Trecia article dalis -->
+    <section class="container-fluid d-flex"
+      style="padding-bottom: 10rem; background-color: hsl(238, 22%, 44%); color: white">
+      <section class="row p-5">
+        <section class="col-md-6 col-xl">
+          <article class="article">
+            <h1 class="article-title fw-bold">
+              Get early access today
+            </h1>
+            <p>
+              It only takes a minute to sign up and our free starter tier is extremely generous.
+              If you have any questions, our support team would be happy to help you.
+            </p>
+            </article>
+        </section>
+        <section class="col-md-6 col-xl">
+          <form class="d-grid gap-2">
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            <button type="submit" class="btn btn-primary">Get Started</button>
+          </form>
+        </section>
+      </section>
+    </section>
+    <!-- Ketvirta article dalis -->
+    <section class="container-fluid p-5" style="background-color: hsl(243, 87%, 12%);">
+      <a class="container-image" href="#">
+        <img src="images/logo-white.svg" alt="logo" width="200">
+      </a>
+      <section class="d-flex justify-content-between">
+        <section class="row">
+          <ul class="container__list" style="list-style-type: none; color: whitesmoke">
+            <li>
+              <img src="images/icon-phone.svg" alt="phone"> Phone: +1-543-123-4567
+            </li>
+            <li>
+              <img src="images/icon-email.svg" alt="email"> example@clo.com
+            </li>
+          </ul>
+        </section>
+        <section>
+          <ul class="container__list" style="list-style-type: none; color: whitesmoke">
+            <li>
+              About Us
+            </li>
+            <li>
+              Jobs
+            </li>
+            <li>
+              Press
+            </li>
+            <li>
+              Blog
+            </li>
+          </ul>
+        </section>
+        <ul class="container__list" style="list-style-type: none; color: whitesmoke">
+          <li>
+            Contact Us
+          </li>
+          <li>
+            Terms
+          </li>
+          <li>
+            Privacy
+          </li>
+        </ul>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer bg-dark text-white p-5">
+    <article class="container text-center">
+      <p class="author">
+        Coded by <a href="#">Karolina Cizaite</a>.
+      </p>
+    </article>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
